@@ -1,0 +1,17 @@
+  h1 {
+      margin: 5vh auto 0;
+      text-align: center;
+      color: white;
+      font-size: 80px;
+      position: relative;
+      &:before{
+        content : "";
+        position: absolute;
+        left    : 50%;
+        transform: translateX(-50%);
+        bottom  : 0;
+        height  : 1px;
+        width   : 10%;
+        border-bottom: 5px solid magenta;
+      }
+  }

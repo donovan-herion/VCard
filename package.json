@@ -1,0 +1,23 @@
+{
+  "name": "vcard",
+  "version": "1.0.0",
+  "description": "**CSS Features**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch assets/scss -o assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donovan-herion/VCard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donovan-herion/VCard/issues"
+  },
+  "homepage": "https://github.com/donovan-herion/VCard#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
